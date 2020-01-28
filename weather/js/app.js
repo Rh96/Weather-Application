@@ -6,7 +6,8 @@ let thirdPage = document.querySelector('#thirdPage');
 // Functions
 function showHidePages(){
     $('#firstPage').click(function(){
-        $('div').hide();
+        $('#home-statistics').show();
+        $('#home-statistics').hide();
     })
 }
 showHidePages();
