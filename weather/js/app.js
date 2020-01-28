@@ -7,17 +7,23 @@ let thirdPage = document.querySelector('#about-us').style.display = 'none';
 function showHidePages(){
     $(document).ready(function(){
         $('#firstPage').click(function(){
-            $('#home-statistics').toggle();
+            $('#home-statistics').show();
+            $('#hourly-weather').hide();
+            $('#about-us').hide();
         })
     })
     $(document).ready(function(){
         $('#secondPage').click(function(){
-            $('#hourly-weather').toggle();
+           $('#hourly-weather').show();
+           $('#home-statistics').hide();
+           $('#about-us').hide();
         })
     })
     $(document).ready(function(){
         $('#thirdPage').click(function(){
-            $('#about-us').toggle();
+            $('#about-us').show();
+            $('#home-statistics').hide();
+            $('#hourly-weather').hide();
         })
     })
 }
