@@ -1,4 +1,4 @@
-Tasks for weatherAlert application
+Tasks for weatherAlert Application
 
 1. Create HTML Page (index.html), js file(app.js), style.css and link them into html page
 2. Add bootstrap to index.html
