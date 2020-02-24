@@ -10,6 +10,7 @@ function showHidePages(){
             $('#home-statistics').show();
             $('#hourly-weather').hide();
             $('#about-us').hide();
+            $('#welcome-text').hide();
         })
     })
     $(document).ready(function(){
@@ -17,6 +18,7 @@ function showHidePages(){
            $('#hourly-weather').show();
            $('#home-statistics').hide();
            $('#about-us').hide();
+           $('#welcome-text').hide();
         })
     })
     $(document).ready(function(){
@@ -24,6 +26,7 @@ function showHidePages(){
             $('#about-us').show();
             $('#home-statistics').hide();
             $('#hourly-weather').hide();
+            $('#welcome-text').hide();
         })
     })
 }

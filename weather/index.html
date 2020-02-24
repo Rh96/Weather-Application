@@ -36,11 +36,47 @@
     </div>
   </nav>
   <!-- DIVS -->
-
+  <div id="welcome-text"> 
+      <h1 align="center">Welcome to Weather App</h1>
+      <p align="center">Click on navigation bar to check statistics about the Weather for incoming days</p>
+  </div>
   
   <!-- HOME WEATHER STATISTIC -->
   <div id="home-statistics">
     <h1 align="center">Welcome to weather statistics</h1>
+
+    <div class="card card-changes" style="width: 18rem;">
+      <div class="card-header"  align="center">
+        Temperature
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Highest <span id="maximum-temp">Text</span></li>
+        <li class="list-group-item">Average <span id="average-temp"></span></li>
+        <li class="list-group-item">Lowest <span id="minimum-temp">Text</span></li>
+      </ul>
+    </div>
+
+    <div class="card card-changes" style="width: 18rem;">
+      <div class="card-header" align="center">
+        Humidity
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Highest <span id="maximum-humidity">Text</span></li>
+        <li class="list-group-item">Average <span id="average-humidity">Text</span></li>
+        <li class="list-group-item">Lowest <span id="minimum-humidity">Text</span></li>
+      </ul>
+    </div>
+
+    <div class="card card-changes" style="width: 18rem;">
+      <div class="card-header"  align="center">
+        Warmest and Coldest time
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Warmest Time will be<br> <span id="warmest-temp">Some Text</span></li>
+        <!-- <li class="list-group-item">Dapibus ac facilisis in</li> -->
+        <li class="list-group-item">Coldest Time will be<br> <span id="lowest-temp">Some Text</span></li>
+      </ul>
+    </div>
   </div>
   
   
@@ -49,7 +85,7 @@
   
   <!-- HOURLY WEATHER -->
   <div id="hourly-weather">
-    <h1 align="center">Hello from second page</h1>
+    <h1 align="center">Hourly Statistics</h1>
     <table id="weather-data" border="1" align="center">
         <tr>
           <th>Icon</th>

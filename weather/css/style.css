@@ -1,0 +1,37 @@
+.card-changes{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-flex;
+    left: 15%;
+}
+/* TEMPERATURE */
+#maximum-temp{
+    position: absolute;
+    left: 70%;
+}
+
+#average-temp{
+    position: absolute;
+    left: 70%;
+}
+
+#minimum-temp{
+    position: absolute;
+    left: 70%;
+}
+
+/* HUMIDITY */
+#maximum-humidity{
+    position: absolute;
+    left: 70%;
+}
+
+#average-humidity{
+    position: absolute;
+    left: 70%;
+}
+
+#minimum-humidity{
+    position: absolute;
+    left: 70%;
+}
